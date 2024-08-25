@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://movieswood.vercel.app/sitemap.xml
