@@ -50,7 +50,7 @@ const page7 = ({ items }) => {
     '@context': 'https://schema.org',
     '@type': 'Article',
     '@id': 'https://movieswood.vercel.app/page7',
-    headline: 'Main Section 8 | 123Movies™',
+    headline: 'Main Section 8 | Movieswood™',
     url: 'https://movieswood.vercel.app/page7',
     description:
       'Movieswood- Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.',
@@ -103,7 +103,7 @@ const page7 = ({ items }) => {
   return (
     <div className='w-full' style={{ backgroundColor: '#000' }}>
       <Head>
-        <title> Main Section 8 | 123Movies™</title>
+        <title> Main Section 8 | Movieswood™</title>
         <link rel='canonical' href='https://movieswood.vercel.app/page7' />
         <meta
           name='robots'
@@ -114,22 +114,22 @@ const page7 = ({ items }) => {
         <meta name='revisit-after' content='1 days' />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content=' Main Section 8 | 123Movies™' />
+        <meta property='og:title' content=' Main Section 8 | Movieswood™' />
         <meta
           property='og:description'
-          content='123Movies™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
         <meta property='og:url' content='https://movieswood.vercel.app/page7' />
 
-        <meta property='og:site_name' content='123Movies™' />
+        <meta property='og:site_name' content='Movieswood™' />
         <meta property='og:type' content='article' />
         <meta
           property=' og:image:alt'
           content='https://movieswood.vercel.app/og_image.jpg'
         />
         <meta name='mobile-web-app-capable' content='yes' />
-        <meta property='article:section' content='123Movies™' />
+        <meta property='article:section' content='Movieswood™' />
         <meta name='author' content='admin' />
         <meta
           property='article:modified_time'

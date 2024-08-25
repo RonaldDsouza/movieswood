@@ -50,14 +50,14 @@ const cookiepolicy = () => {
       {
         '@type': 'Organization',
         '@id': 'https://movieswood.vercel.app/#organization',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         url: 'https://movieswood.vercel.app'
       },
       {
         '@type': 'WebSite',
         '@id': 'https://movieswood.vercel.app/#website',
         url: 'https://movieswood.vercel.app',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         publisher: {
           '@type': 'Organization',
           '@id': 'https://movieswood.vercel.app/#organization'
@@ -116,7 +116,7 @@ const cookiepolicy = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -143,7 +143,7 @@ const cookiepolicy = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -170,7 +170,7 @@ const cookiepolicy = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           }
@@ -183,7 +183,7 @@ const cookiepolicy = () => {
   return (
     <div>
       <Head>
-        <title>123Moviesonline™ | Cookie Policy</title>
+        <title>Movieswood™ | Cookie Policy</title>
         <link
           rel='sitemap'
           type='application/xml'
@@ -220,13 +220,13 @@ const cookiepolicy = () => {
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
         />
-       <meta
+        <meta
           name='keywords'
           content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123movies,gomovies,putlocker,putlockers,soap2day'
         />
        <meta
           property='description'
-          content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
         <link
@@ -235,16 +235,16 @@ const cookiepolicy = () => {
         />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content='123Moviesonline™ ' />
+        <meta property='og:title' content='Movieswood™ ' />
         <meta
           property='og:description'
-          content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
         <meta
           property='og:url'
           content='https://movieswood.vercel.app/intro/tearms/'
         />
-        <meta property='og:site_name' content='123Moviesonline™ ' />
+        <meta property='og:site_name' content='Movieswood™ ' />
         <meta
           property='og:image'
           content='https://movieswood.vercel.app/og_image.jpg'
@@ -252,7 +252,7 @@ const cookiepolicy = () => {
         <meta property='og:image:width' content='1280' />
         <meta property='og:image:height' content='720' />
         <meta property='og:image:type' content='image/jpg' />
-        <meta name='application-name' content='123Moviesonline™ ' />
+        <meta name='application-name' content='Movieswood™ ' />
         <meta
           property='article:modified_time'
           content='2024-01-01T13:13:13+00:00'
@@ -311,7 +311,7 @@ const cookiepolicy = () => {
             >
               <h1 style={headingStyle}>Cookie Policy</h1>
               <p style={{ color: '#666', marginBottom: '24px' }}>
-                This is the Cookie Policy for 123Moviesonline™, accessible from
+                This is the Cookie Policy for Movieswood™, accessible from
                 and its subdomains.
               </p>
 

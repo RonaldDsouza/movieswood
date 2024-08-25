@@ -51,14 +51,14 @@ const Tearms = () => {
       {
         '@type': 'Organization',
         '@id': 'https://movieswood.vercel.app/#organization',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         url: 'https://movieswood.vercel.app'
       },
       {
         '@type': 'WebSite',
         '@id': 'https://movieswood.vercel.app/#website',
         url: 'https://movieswood.vercel.app',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         publisher: {
           '@type': 'Organization',
           '@id': 'https://movieswood.vercel.app/#organization'
@@ -117,7 +117,7 @@ const Tearms = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -144,7 +144,7 @@ const Tearms = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -171,7 +171,7 @@ const Tearms = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           }
@@ -185,7 +185,7 @@ const Tearms = () => {
   return (
     <div>
         <Head>
-        <title>123Moviesonline™ | Terms of Use</title>
+        <title>Movieswood™ | Terms of Use</title>
         <link
             rel='sitemap'
             type='application/xml'
@@ -225,13 +225,13 @@ const Tearms = () => {
             name='robots'
             content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
           />
-         <meta
+       <meta
           name='keywords'
           content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123movies,gomovies,putlocker,putlockers,soap2day'
         />
        <meta
           property='description'
-          content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
           <link rel='canonical' href='https://movieswood.vercel.app/intro/tearms' />
@@ -239,16 +239,16 @@ const Tearms = () => {
           <meta property='og:type' content='website' />
           <meta
             property='og:title'
-            content='123Moviesonline™ '
+            content='Movieswood™ '
           />
           <meta
             property='og:description'
-            content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+            content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
           />
           <meta property='og:url' content='https://movieswood.vercel.app/intro/tearms/' />
           <meta
             property='og:site_name'
-            content='123Moviesonline™ '
+            content='Movieswood™ '
           />
           <meta
             property='og:image'
@@ -259,7 +259,7 @@ const Tearms = () => {
           <meta property='og:image:type' content='image/jpg' />
           <meta
             name='application-name'
-            content='123Moviesonline™ '
+            content='Movieswood™ '
           />
           <meta
             property='article:modified_time'

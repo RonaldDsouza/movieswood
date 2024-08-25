@@ -23,14 +23,14 @@ const contact = () => {
       {
         '@type': 'Organization',
         '@id': 'https://movieswood.vercel.app/#organization',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         url: 'https://movieswood.vercel.app'
       },
       {
         '@type': 'WebSite',
         '@id': 'https://movieswood.vercel.app/#website',
         url: 'https://movieswood.vercel.app',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         publisher: {
           '@type': 'Organization',
           '@id': 'https://movieswood.vercel.app/#organization'
@@ -89,7 +89,7 @@ const contact = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -116,7 +116,7 @@ const contact = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -143,7 +143,7 @@ const contact = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           }
@@ -157,7 +157,7 @@ const contact = () => {
   return (
     <div>
       <Head>
-        <title>123Moviesonline™ | Contact Us</title>
+        <title>Movieswood™ | Contact Us</title>
 
         <link
           rel='sitemap'
@@ -201,7 +201,7 @@ const contact = () => {
         />
         <meta
           property='description'
-          content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
         <link
@@ -210,16 +210,16 @@ const contact = () => {
         />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content='123Moviesonline™ ' />
+        <meta property='og:title' content='Movieswood™ ' />
         <meta
           property='og:description'
-          content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
         <meta
           property='og:url'
           content='https://movieswood.vercel.app/intro/contact/'
         />
-        <meta property='og:site_name' content='123Moviesonline™ ' />
+        <meta property='og:site_name' content='Movieswood™ ' />
         <meta
           property='og:image'
           content='https://movieswood.vercel.app/og_image.jpg'
@@ -227,7 +227,7 @@ const contact = () => {
         <meta property='og:image:width' content='1280' />
         <meta property='og:image:height' content='720' />
         <meta property='og:image:type' content='image/jpg' />
-        <meta name='application-name' content='123Moviesonline™ ' />
+        <meta name='application-name' content='Movieswood™ ' />
         <meta
           property='article:modified_time'
           content='2024-01-01T13:13:13+00:00'
@@ -281,7 +281,7 @@ const contact = () => {
               <p className='text-gray-500 mb-6'>
                 Feel free to use the form below to provide us with your
                 feedback, suggestions, or collaboration or request inquiries
-                related to 123Moviesonline™. We welcome your input to help us
+                related to Movieswood™. We welcome your input to help us
                 echance our services and offerings.
               </p>
 

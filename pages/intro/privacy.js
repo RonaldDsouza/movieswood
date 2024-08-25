@@ -26,14 +26,14 @@ const Privacy = () => {
       {
         '@type': 'Organization',
         '@id': 'https://movieswood.vercel.app/#organization',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         url: 'https://movieswood.vercel.app'
       },
       {
         '@type': 'WebSite',
         '@id': 'https://movieswood.vercel.app/#website',
         url: 'https://movieswood.vercel.app',
-        name: '123Moviesonline™ - Explore. Discover. Download.',
+        name: 'Movieswood™ - Explore. Discover. Download.',
         publisher: {
           '@type': 'Organization',
           '@id': 'https://movieswood.vercel.app/#organization'
@@ -92,7 +92,7 @@ const Privacy = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -119,7 +119,7 @@ const Privacy = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           },
@@ -146,7 +146,7 @@ const Privacy = () => {
             publisher: {
               '@type': 'Organization',
               '@id': 'https://movieswood.vercel.app/#organization',
-              name: '123Moviesonline™ - Explore. Discover. Download.',
+              name: 'Movieswood™ - Explore. Discover. Download.',
               url: 'https://movieswood.vercel.app'
             }
           }
@@ -160,7 +160,7 @@ const Privacy = () => {
   return (
     <div>
        <Head>
-        <title>123Moviesonline™ | Privacy Policy</title>
+        <title>Movieswood™ | Privacy Policy</title>
       
         <link
             rel='sitemap'
@@ -201,13 +201,13 @@ const Privacy = () => {
             name='robots'
             content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
           />
-        <meta
+         <meta
           name='keywords'
           content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123movies,gomovies,putlocker,putlockers,soap2day'
         />
           <meta
           property='description'
-          content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
           <link rel='canonical' href='https://movieswood.vercel.app/intro/privacy' />
@@ -215,16 +215,16 @@ const Privacy = () => {
           <meta property='og:type' content='website' />
           <meta
             property='og:title'
-            content='123Moviesonline™ '
+            content='Movieswood™ '
           />
           <meta
             property='og:description'
-            content='123Moviesonline™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+            content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
           />
           <meta property='og:url' content='https://movieswood.vercel.app/intro/privacy/' />
           <meta
             property='og:site_name'
-            content='123Moviesonline™ '
+            content='Movieswood™ '
           />
           <meta
             property='og:image'
@@ -235,7 +235,7 @@ const Privacy = () => {
           <meta property='og:image:type' content='image/jpg' />
           <meta
             name='application-name'
-            content='123Moviesonline™ '
+            content='Movieswood™ '
           />
           <meta
             property='article:modified_time'
@@ -287,15 +287,15 @@ const Privacy = () => {
   <div className="flex flex-wrap">
     <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full  px-3 lg:px-6">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
-      <p className="font-bold mb-2">123Moviesonline™ </p>
+      <p className="font-bold mb-2">Movieswood™ </p>
       <p className="text-gray-500 mb-6">
-      123Moviesonline™ International(123Moviesonline™) is committed to protecting your privacy. This Privacy Policy applies only to the Web Sites and applications published by 123Moviesonline™ International.
+      Movieswood™ International(Movieswood™) is committed to protecting your privacy. This Privacy Policy applies only to the Web Sites and applications published by Movieswood™ International.
       </p>
       <p className="font-bold mb-2">Note: Use of Information</p>
       <p className="text-gray-500 mb-6">
       Information that we collect  </p>
       <p className="text-gray-500 mb-6">
-      123Moviesonline™ may collect information from its users in three different ways: directly from the user, from traffic references of hostingservers and from cookies.
+      Movieswood™ may collect information from its users in three different ways: directly from the user, from traffic references of hostingservers and from cookies.
       </p>
       <p className="font-bold mb-2">We use the information we collect to:</p>
       <p className="text-gray-500 mb-6">
@@ -312,7 +312,7 @@ const Privacy = () => {
 
      
       <p className="text-gray-500">
-      We do not make warranties that this site will operate error free. If you see an error, please contact the <a className="font-bold text-blue-500 mb-6" href="mailto:drtrailer2022@gmail.com ">webmaster</a>. By entering this site you agree to hold the owners, employees, advertisers of 123Moviesonline™  free from any and all liability.This site (123Moviesonline™ ) do not offer any membership.If you have any questions please feel free to <a className="font-bold text-blue-500 mb-6" href="mailto:drtrailer2022@gmail.com.com">contact us</a>.
+      We do not make warranties that this site will operate error free. If you see an error, please contact the <a className="font-bold text-blue-500 mb-6" href="mailto:drtrailer2022@gmail.com ">webmaster</a>. By entering this site you agree to hold the owners, employees, advertisers of Movieswood™  free from any and all liability.This site (Movieswood™ ) do not offer any membership.If you have any questions please feel free to <a className="font-bold text-blue-500 mb-6" href="mailto:drtrailer2022@gmail.com.com">contact us</a>.
       </p>
     </div>
 
