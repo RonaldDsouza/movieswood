@@ -325,7 +325,7 @@ const moviesDetail4 = ({ moviesItem }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'Movieswood???',
+      name: 'Movieswood™',
       url: 'https://movieswood.vercel.app/',
       image: ['https://movieswood.vercel.app/favicon.ico'],
       logo: {
@@ -357,7 +357,7 @@ const moviesDetail4 = ({ moviesItem }) => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Movieswood???',
+        name: 'Movieswood™',
         item: 'https://movieswood.vercel.app/'
       },
       {
@@ -381,7 +381,7 @@ const moviesDetail4 = ({ moviesItem }) => {
         '@type': 'WebSite',
         '@id': 'https://movieswood.vercel.app#website',
         url: 'https://movieswood.vercel.app',
-        name: 'Movieswood???',
+        name: 'Movieswood™',
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
         },
@@ -391,7 +391,7 @@ const moviesDetail4 = ({ moviesItem }) => {
         '@type': 'WebPage',
         '@id': `${moviesItem.siteurl}#webpage`,
         url: moviesItem.siteurl,
-        name: `${moviesItem.name} | Movieswood???`,
+        name: `${moviesItem.name} | Movieswood™`,
         datePublished: moviesItem.datePublished,
         dateModified: moviesItem.dateModified,
         isPartOf: {
@@ -403,7 +403,7 @@ const moviesDetail4 = ({ moviesItem }) => {
       {
         '@type': 'Article',
         '@id': `${moviesItem.siteurl}#article`,
-        headline: ` ${moviesItem.name} | Movieswood???`,
+        headline: ` ${moviesItem.name} | Movieswood™`,
         datePublished: moviesItem.datePublished,
         dateModified: moviesItem.dateModified,
         articleSection: 'Movies',
@@ -412,7 +412,7 @@ const moviesDetail4 = ({ moviesItem }) => {
         },
         description: moviesItem.synopsis,
         image: moviesItem.image,
-        name: ` ${moviesItem.name} | Movieswood???`,
+        name: ` ${moviesItem.name} | Movieswood™`,
         isPartOf: {
           '@id': `${moviesItem.siteurl}#webpage`
         },
@@ -424,7 +424,7 @@ const moviesDetail4 = ({ moviesItem }) => {
       {
         '@type': 'BlogPosting',
         '@id': `${moviesItem.siteurl}#blogPost`,
-        headline: ` ${moviesItem.name} | Movieswood???`,
+        headline: ` ${moviesItem.name} | Movieswood™`,
         datePublished: moviesItem.datePublished,
         dateModified: moviesItem.dateModified,
         articleSection: 'Movies',
@@ -433,7 +433,7 @@ const moviesDetail4 = ({ moviesItem }) => {
         },
         description: moviesItem.synopsis,
         image: moviesItem.image,
-        name: ` ${moviesItem.name} | Movieswood???`,
+        name: ` ${moviesItem.name} | Movieswood™`,
         '@id': `${moviesItem.siteurl}#richSnippet`,
         isPartOf: {
           '@id': `${moviesItem.siteurl}#webpage`
@@ -474,7 +474,7 @@ const moviesDetail4 = ({ moviesItem }) => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Movieswood???',
+      name: 'Movieswood™',
       logo: {
         '@type': 'ImageObject',
         url: 'https://movieswood.vercel.app/og_image.jpg'
@@ -535,7 +535,7 @@ const moviesDetail4 = ({ moviesItem }) => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Movieswood???',
+      name: 'Movieswood™',
       logo: {
         '@type': 'ImageObject',
         url: 'https://movieswood.vercel.app/og_image.jpg'
@@ -564,18 +564,18 @@ const moviesDetail4 = ({ moviesItem }) => {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   url: moviesItem.siteurl, // Ensure this URL is correctly set
-  name: ` ${moviesItem.title} | Movieswood???`,
+  name: ` ${moviesItem.title} | Movieswood™`,
   alternateName: [
-    `Ver pel??cula ${moviesItem.title} | Movieswood???`,
-    `Regarder le film ${moviesItem.title} | Movieswood???`,
-    `Film ${moviesItem.title} ansehen | Movieswood???`,
-    `???????????? ${moviesItem.title} | Movieswood???`,
-    `?????? ${moviesItem.title} ????????? | Movieswood???`,
-    `?????? ${moviesItem.title} ?????? | Movieswood???`,
-    `Assistir Filme ${moviesItem.title} | Movieswood???`,
-    `Guarda il film ${moviesItem.title} | Movieswood???`,
-    `???????????????????? ?????????? ${moviesItem.title} | Movieswood???`,
-    `???????????? ???????? ${moviesItem.title} | Movieswood???`
+    `Ver película ${moviesItem.title} | Movieswood™`,
+    `Regarder le film ${moviesItem.title} | Movieswood™`,
+    `Film ${moviesItem.title} ansehen | Movieswood™`,
+    `观看电影 ${moviesItem.title} | Movieswood™`,
+    `映画 ${moviesItem.title} を見る | Movieswood™`,
+    `영화 ${moviesItem.title} 보기 | Movieswood™`,
+    `Assistir Filme ${moviesItem.title} | Movieswood™`,
+    `Guarda il film ${moviesItem.title} | Movieswood™`,
+    `Посмотреть фильм ${moviesItem.title} | Movieswood™`,
+    `مشاهدة فيلم ${moviesItem.title} | Movieswood™`
   ],
   inLanguage: [
     'es',
@@ -601,8 +601,8 @@ const moviesDetail4 = ({ moviesItem }) => {
 
         <title>
           {moviesItem?.title
-            ? `${moviesItem.title} | Movieswood???`
-            : 'Movieswood???'}
+            ? `${moviesItem.title} | Movieswood™`
+            : 'Movieswood™'}
         </title>
         <link rel='canonical' href={moviesItem && moviesItem.siteurl} />
         <meta name='robots' content='index, follow' />
@@ -619,15 +619,15 @@ const moviesDetail4 = ({ moviesItem }) => {
         <meta property='og:video:type' content='video/mp4' />
         <meta
           property='og:title'
-          content={`${moviesItem && moviesItem.name} - Movieswood???`}
+          content={`${moviesItem && moviesItem.name} - Movieswood™`}
         />
         <meta
           property='og:description'
-          content='Stream HD movies and TV series for free on Movieswood???. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Stream HD movies and TV series for free on Movieswood™. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
         <meta
           name='description'
-          content={`${moviesItem.title} available on Movieswood???. Enjoy free streaming of full-length movies and TV series online with no registration required.`}
+          content={`${moviesItem.title} available on Movieswood™. Enjoy free streaming of full-length movies and TV series online with no registration required.`}
         />
         <meta
           property='og:url'
@@ -637,7 +637,7 @@ const moviesDetail4 = ({ moviesItem }) => {
           name='keywords'
           content={`${moviesItem && moviesItem.keywords}`}
         />
-        <meta property='og:site_name' content='Movieswood???' />
+        <meta property='og:site_name' content='Movieswood™' />
         {/* <meta property='og:type' content='article' /> */}
         <meta
           property=' og:image:alt'
@@ -660,11 +660,11 @@ const moviesDetail4 = ({ moviesItem }) => {
         <meta name='twitter:card' content='summary_large_image' />
         <meta
           name='twitter:title'
-          content='Movieswood??? - Explore. Discover. Online. '
+          content='Movieswood™ - Explore. Discover. Online. '
         />
         <meta
           name='twitter:description'
-          content='Stream HD movies and TV series for free on Movieswood???. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Stream HD movies and TV series for free on Movieswood™. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
         <meta
           name='twitter:image'
@@ -772,7 +772,7 @@ const moviesDetail4 = ({ moviesItem }) => {
               Explore the captivating world of{' '}
               <strong>{moviesItem.title}</strong>, the TV series that has
               everyone talking. At
-              <strong> Movieswood???</strong>, you can stream{' '}
+              <strong> Movieswood™</strong>, you can stream{' '}
               <strong>{moviesItem.title}</strong> and immerse yourself in its
               exciting episodes, whether you're catching up on past seasons or
               tuning in to the latest releases. Our platform offers a seamless
@@ -781,10 +781,10 @@ const moviesDetail4 = ({ moviesItem }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Streaming <strong>{moviesItem.title}</strong> on{' '}
-              <strong>Movieswood???</strong> ensures that you won't miss a
+              <strong>Movieswood™</strong> ensures that you won't miss a
               single moment of the action, drama, or comedy that makes this TV
               series a must-watch. With high-quality streaming and user-friendly
-              navigation, <strong>Movieswood???</strong> provides everything
+              navigation, <strong>Movieswood™</strong> provides everything
               you need to enjoy <strong>{moviesItem.title}</strong>
               and other top TV series. Our library is frequently updated, so you
               can always find the latest episodes as soon as they air.
@@ -792,10 +792,10 @@ const moviesDetail4 = ({ moviesItem }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               Whether you're binge-watching or following along weekly,{' '}
               <strong>{moviesItem.title}</strong> on{' '}
-              <strong>Movieswood???</strong> is your go-to destination for
+              <strong>Movieswood™</strong> is your go-to destination for
               streaming TV series online. Join our community of viewers and
               start watching <strong>{moviesItem.title}</strong> today. With{' '}
-              <strong>Movieswood???</strong>, your favorite TV series is
+              <strong>Movieswood™</strong>, your favorite TV series is
               just a click away.
             </p>
           </>
@@ -810,7 +810,7 @@ const moviesDetail4 = ({ moviesItem }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               Indulge in the finest selection of adult entertainment with{' '}
               <strong>{moviesItem.title}</strong>. At{' '}
-              <strong>Movieswood???</strong>, we offer a vast library of
+              <strong>Movieswood™</strong>, we offer a vast library of
               premium adult content, including the latest and most popular
               titles like <strong>{moviesItem.title}</strong>. Our platform is
               designed for those who seek high-quality, discreet streaming of
@@ -818,7 +818,7 @@ const moviesDetail4 = ({ moviesItem }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Streaming <strong>{moviesItem.title}</strong> on{' '}
-              <strong>Movieswood???</strong> provides you with a
+              <strong>Movieswood™</strong> provides you with a
               user-friendly interface and crystal-clear video quality. Our adult
               content is regularly updated, giving you access to new releases as
               soon as they become available. Whether you're exploring new genres
@@ -829,10 +829,10 @@ const moviesDetail4 = ({ moviesItem }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               For a premium experience in adult entertainment, look no further
               than <strong>{moviesItem.title}</strong> on{' '}
-              <strong>Movieswood???</strong>. Our platform ensures your
+              <strong>Movieswood™</strong>. Our platform ensures your
               privacy and security while you enjoy the content you love. Start
               streaming <strong>{moviesItem.title}</strong> today and discover
-              why <strong>Movieswood???</strong> is the trusted choice for
+              why <strong>Movieswood™</strong> is the trusted choice for
               adult content.
             </p>
           </>
@@ -847,7 +847,7 @@ const moviesDetail4 = ({ moviesItem }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               Dive into the world of cinema with{' '}
               <strong>{moviesItem.title}</strong>, available to stream right
-              here. At <strong>Movieswood???</strong>, we bring you the best
+              here. At <strong>Movieswood™</strong>, we bring you the best
               in entertainment, offering an extensive library of movies and TV
               shows, including the latest blockbusters like{' '}
               <strong>{moviesItem.title}</strong>. Whether you're a fan of
@@ -856,7 +856,7 @@ const moviesDetail4 = ({ moviesItem }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Streaming <strong>{moviesItem.title}</strong> on{' '}
-              <strong>Movieswood???</strong> guarantees a seamless viewing
+              <strong>Movieswood™</strong> guarantees a seamless viewing
               experience with high-definition quality and uninterrupted
               playback. Our platform is designed to make it easy for you to
               discover and enjoy your favorite films. With regularly updated
@@ -867,11 +867,11 @@ const moviesDetail4 = ({ moviesItem }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               Whether you're revisiting a classic or catching a new release,{' '}
               <strong>{moviesItem.title}</strong> on{' '}
-              <strong>Movieswood???</strong> is the perfect way to enjoy
+              <strong>Movieswood™</strong> is the perfect way to enjoy
               your movie night. Join the countless users who trust us for their
               streaming needs and start watching{' '}
               <strong>{moviesItem.title}</strong> online today. At{' '}
-              <strong>Movieswood???</strong>, your entertainment is just a
+              <strong>Movieswood™</strong>, your entertainment is just a
               click away.
             </p>
           </>

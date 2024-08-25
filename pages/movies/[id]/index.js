@@ -591,18 +591,18 @@ const moviesDetail = ({ moviesItem }) => {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   url: moviesItem.siteurl, // Ensure this URL is correctly set
-  name: ` ${moviesItem.title} | Movieswood???`,
+  name: ` ${moviesItem.title} | Movieswood™`,
   alternateName: [
-    `Ver pel??cula ${moviesItem.title} | Movieswood???`,
-    `Regarder le film ${moviesItem.title} | Movieswood???`,
-    `Film ${moviesItem.title} ansehen | Movieswood???`,
-    `???????????? ${moviesItem.title} | Movieswood???`,
-    `?????? ${moviesItem.title} ????????? | Movieswood???`,
-    `?????? ${moviesItem.title} ?????? | Movieswood???`,
-    `Assistir Filme ${moviesItem.title} | Movieswood???`,
-    `Guarda il film ${moviesItem.title} | Movieswood???`,
-    `???????????????????? ?????????? ${moviesItem.title} | Movieswood???`,
-    `???????????? ???????? ${moviesItem.title} | Movieswood???`
+    `Ver película ${moviesItem.title} | Movieswood™`,
+    `Regarder le film ${moviesItem.title} | Movieswood™`,
+    `Film ${moviesItem.title} ansehen | Movieswood™`,
+    `观看电影 ${moviesItem.title} | Movieswood™`,
+    `映画 ${moviesItem.title} を見る | Movieswood™`,
+    `영화 ${moviesItem.title} 보기 | Movieswood™`,
+    `Assistir Filme ${moviesItem.title} | Movieswood™`,
+    `Guarda il film ${moviesItem.title} | Movieswood™`,
+    `Посмотреть фильм ${moviesItem.title} | Movieswood™`,
+    `مشاهدة فيلم ${moviesItem.title} | Movieswood™`
   ],
   inLanguage: [
     'es',
