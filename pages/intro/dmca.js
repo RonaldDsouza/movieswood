@@ -221,13 +221,13 @@ const dmca = () => {
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
         />
-      <meta
+        <meta
           name='keywords'
-          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123movies,gomovies,putlocker,putlockers,soap2day'
+          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,gomovies,putlocker,putlockers,soap2day'
         />
         <meta
           property='description'
-          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood Online. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
         <link
@@ -239,7 +239,7 @@ const dmca = () => {
         <meta property='og:title' content='Movieswood™ ' />
         <meta
           property='og:description'
-          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood Online. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
         <meta
           property='og:url'

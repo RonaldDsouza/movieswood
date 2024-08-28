@@ -242,9 +242,9 @@ export default function HomePage() {
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
         />
-       <meta
+         <meta
           name='keywords'
-          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123movies,gomovies,putlocker,putlockers,soap2day'
+          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,gomovies,putlocker,putlockers,soap2day'
         />
         <meta
           name='description'
@@ -258,7 +258,7 @@ export default function HomePage() {
           property='og:title'
           content='Movieswood™ - Explore. Stream. Online. '
         />
-        <meta property='og:url' content='https://movieswood.vercel.app/' />
+        <meta property='og:url' content='https://movieswood.vercel.app' />
         <meta
           property='og:site_name'
           content='Movieswood™ - Explore. Stream. Online. '

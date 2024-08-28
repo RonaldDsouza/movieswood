@@ -7,12 +7,12 @@ import Script from 'next/script';
 import { useEffect } from 'react';
 
 function Application({ Component, pageProps }) {
-
+ 
   return (
     <div className="center">
       <GoogleAnalytics measurementId="G-J7NNCYQ82M" />
-     <Script src='../../propler/ads.js' defer />
-     {/* <Script src='../../propler/ads2.js' defer /> */}
+     {/* <Script src='../../propler/ads.js' defer />
+     <Script src='../../propler/ads2.js' defer /> */}
       
       <PageTransition>
         <Hamburger />
