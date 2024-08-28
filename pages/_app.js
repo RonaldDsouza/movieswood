@@ -8,6 +8,8 @@ import { useEffect } from 'react';
 
 function Application({ Component, pageProps }) {
  
+
+
   return (
     <div className="center">
       <GoogleAnalytics measurementId="G-J7NNCYQ82M" />

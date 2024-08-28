@@ -92,6 +92,8 @@ const breadcrumbSchema = JSON.stringify({
   ]
 })
 
+
+
 const moviesPage = ({ items }) => {
   const router = useRouter() // Initialize the router
   const sections = [
@@ -106,6 +108,31 @@ const moviesPage = ({ items }) => {
   const handlePageSelect = page => {
     setCurrentPage(page)
   }
+
+  useEffect(() => {
+    // Add the Ko-fi widget script to the page
+    const script = document.createElement('script');
+    script.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
+    script.async = true;
+  
+    script.onload = () => {
+      if (typeof kofiWidgetOverlay !== 'undefined') {
+        kofiWidgetOverlay.draw('payat', {
+          'type': 'floating-chat',
+          'floating-chat.donateButton.text': 'Support me',
+          'floating-chat.donateButton.background-color': '#00b9fe',
+          'floating-chat.donateButton.text-color': '#fff'
+        });
+      }
+    };
+  
+    document.body.appendChild(script);
+  
+    return () => {
+      // Cleanup if the component is unmounted
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     // <div className='w-full' style={{ backgroundColor: '#D3D3D3' }}>
