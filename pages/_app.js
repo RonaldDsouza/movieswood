@@ -12,7 +12,7 @@ function Application({ Component, pageProps }) {
     const script = document.createElement('script');
     script.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
     script.async = true;
-  
+
     script.onload = () => {
       if (typeof kofiWidgetOverlay !== 'undefined') {
         kofiWidgetOverlay.draw('payat', {
@@ -23,15 +23,14 @@ function Application({ Component, pageProps }) {
         });
       }
     };
-  
+
     document.body.appendChild(script);
-  
+
     return () => {
       // Cleanup if the component is unmounted
       document.body.removeChild(script);
     };
-  }, []); 
-
+  }, []);
 
   return (
     <div className="center">

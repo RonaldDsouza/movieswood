@@ -1,108 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import latestData from '../../public/latest.json'
-import moviesData from '../../public/moviesp4.json'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
+import Script from 'next/script'
 import GoogleTranslate from '../../components/GoogleTranslate'
 import SocialSharing from '../../components/SocialSharing'
 import SearchComponent from '../../components/SearchComponent'
-import Head from 'next/head'
-import Script from 'next/script'
-
-const uwatchfreeSchema = JSON.stringify([
-  {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Movieswood - Explore. Discover. Download.',
-    url: 'https://movieswood.vercel.app/',
-    image: ['https://movieswood.vercel.app/favicon.ico'],
-    logo: {
-      '@type': 'ImageObject',
-      url: 'https://movieswood.vercel.app/logo.png',
-      width: 280,
-      height: 80
-    }
-  },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    url: 'https://movieswood.vercel.app/',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: 'https://movieswood.vercel.app/search?q={search_term_string}'
-      },
-      'query-input': 'required name=search_term_string'
-    }
-  }
-])
-
-const softwareSchema = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  '@id': 'https://movieswood.vercel.app/page5',
-  headline: 'Main Section 5 | Movieswood™',
-  url: 'https://movieswood.vercel.app/page5',
-  description:
-    'Movieswood - Stream HD movies and TV series for free on Movieswood Online. Explore, stream, and download full-length movies and shows in HD quality without registration.',
-  image: 'https://movieswood.vercel.app/og_image.jpg',
-  author: {
-    '@type': 'Person',
-    name: 'DrTrailer',
-    url: 'https://gravatar.com/drtrailer2022'
-  },
-  publisher: {
-    '@type': 'Organization',
-    name: 'Movieswood - Explore. Discover. Download.',
-    logo: {
-      '@type': 'ImageObject',
-      url: 'https://movieswood.vercel.app/og_image.jpg'
-    }
-  },
-  datePublished: '2024-06-02',
-  dateModified: '2024-06-02',
-  mainEntityOfPage: {
-    '@type': 'WebPage',
-    '@id': 'https://movieswood.vercel.app/page5'
-  },
-  additionalProperty: {
-    '@type': 'PropertyValue',
-    name: 'Action Platform',
-    value: ['movies Web Platform', 'iOS Platform', 'Android Platform']
-  }
-})
-
-const breadcrumbSchema = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Windows',
-      item: 'https://movieswood.vercel.app/'
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'movies',
-      item: 'https://movieswood.vercel.app/page5'
-    }
-  ]
-})
 
 const page5 = ({ items }) => {
-  const [latest, setLatest] = useState(latestData)
-
+  const [latest, setLatest] = useState(items || []) // Ensure items is defined, fallback to an empty array if undefined
   const router = useRouter() // Initialize the router
-  const sections = [
-    // { title: 'Latest Trailer', items: trailers },
-    { title: 'Main Section.', items: items }
-    // { title: 'Latest TV Series.', items: tvshows }
-    // { title: 'Adult Content.', items: adults }
-  ]
 
   const [currentPage, setCurrentPage] = useState(1)
 
@@ -110,8 +18,6 @@ const page5 = ({ items }) => {
     setCurrentPage(page)
   }
 
-  
-  
   const uwatchfreeSchema = JSON.stringify([
     {
       '@context': 'https://schema.org',
@@ -134,13 +40,14 @@ const page5 = ({ items }) => {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'https://movieswood.vercel.app/search?q={search_term_string}'
+          urlTemplate:
+            'https://movieswood.vercel.app/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
     }
   ])
-  
+
   const softwareSchema = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -175,7 +82,7 @@ const page5 = ({ items }) => {
       value: ['movies Web Platform', 'iOS Platform', 'Android Platform']
     }
   })
-  
+
   const breadcrumbSchema = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -194,9 +101,8 @@ const page5 = ({ items }) => {
       }
     ]
   })
-  
+
   return (
-    // <div className='w-full' style={{ backgroundColor: '#D3D3D3' }}>
     <div className='w-full' style={{ backgroundColor: '#000' }}>
       <Head>
         <title> Main Section 5 | Movieswood™</title>
@@ -231,9 +137,9 @@ const page5 = ({ items }) => {
           property='article:modified_time'
           content='2024-01-01T13:13:13+00:00'
         />
-       <meta
+        <meta
           name='keywords'
-          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,gomovies,putlocker,putlockers,soap2day'
+          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123 movies,gomovies,putlocker,putlockers,soap2day'
         />
         <meta
           property='og:image'
@@ -275,9 +181,8 @@ const page5 = ({ items }) => {
       <SocialSharing />
       <Script src='../../propler/ads.js' defer />
       <Script src='../../propler/ads2.js' defer />
-   
       <h1
-        className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl badge bg-gradient-to-r from-pink-500 to-amber-500 font-bold py-3 px-6  shadow-lg hover:from-amber-600 hover:to-pink-600 transition duration-300'
+        className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl badge bg-gradient-to-r from-pink-500 to-amber-500 font-bold py-3 px-6 shadow-lg hover:from-amber-600 hover:to-pink-600 transition duration-300'
         style={{
           justifyContent: 'center',
           alignItems: 'center',
@@ -291,89 +196,170 @@ const page5 = ({ items }) => {
       >
         Movieswood Main Section.
       </h1>
+      <a
+        href='https://t.me/watchmovietvshow/'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='telegram-link'
+        style={{ display: 'block', textAlign: 'center', margin: '0 auto' }}
+      >
+        <p style={{ display: 'inline-block' }}>
+          For Request or Demand <br />
+          Movies & TV Series Join Telegram
+          <i className='fab fa-telegram telegram-icon'></i>
+        </p>
+      </a>
       <GoogleTranslate />
-      <span className='px-0 bg-clip-text text-sm text-black font-bold mt-2'>
+      <span className='px-0 bg-clip-text text-sm text-black font-bold mt-2 '>
         <SearchComponent />
       </span>
-      <div className="flex flex-wrap justify-center my-4 gap-2">
-      {/* TV Show movies button */}
-      <Link href="/home" passHref>
-        <button
-          className={`px-4 py-2 border rounded ${
-            router.pathname === '/home'
-              ? 'bg-red-500 text-white font-bold'
-              : 'bg-gray-200 hover:bg-green-500 text-black font-bold'
-          }`}
-        >
-          Page 1
-        </button>
-      </Link>
-
-      {/* Page 2, Page 3, Page 4 buttons */}
-      {[2, 3, 4, 5, 6, 7, 8, 9, ].map((page) => (
-        <Link key={page} href={`/home/page${page}`} passHref>
+      <div className='flex flex-wrap justify-center my-4 gap-2'>
+        <Link href='/home/page1' passHref>
           <button
             className={`px-4 py-2 border rounded ${
-              router.pathname === `/home/page${page}`
+              router.pathname === '/home/page1'
                 ? 'bg-red-500 text-white font-bold'
                 : 'bg-gray-200 hover:bg-green-500 text-black font-bold'
             }`}
           >
-            PAGE {page}
+            Page 1
           </button>
         </Link>
-      ))}
-    </div>
+
+        {[2, 3, 4, 5, 6, 7, 8, 9].map(page => (
+          <Link key={page} href={`/home/page${page}`} passHref>
+            <button
+              className={`px-4 py-2 border rounded ${
+                router.pathname === `/home/page${page}`
+                  ? 'bg-red-500 text-white font-bold'
+                  : 'bg-gray-200 hover:bg-green-500 text-black font-bold'
+              }`}
+            >
+              PAGE {page}
+            </button>
+          </Link>
+        ))}
+      </div>
 
       <div className='container mx-auto px-4 py-6'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-          {items.map(item => (
-            <div
-              key={item.id}
-              className='card bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 duration-300'
-            >
-               <Link href={item.siteurl}>
-                <div>
-                  <div className='relative'>
-                    {/* Badge in front of the image */}
-                    <div className='absolute top-2 left-2 z-10 badge bg-gradient-to-r from-pink-500 to-amber-500 text-white py-2 px-4 rounded-lg text-center font-bold'>
-                      {item.badge}
-                    </div>
-                    <div className="aspect-w-16 aspect-h-9 w-full">
-                      <Image
-                        src={item.image}
-                        alt={item.title}
-                        width={1280}
-                        height={720}
-                        className='w-full h-full rounded-t-lg'
-                        quality={90}
-                        loading='lazy'
-                        style={{
-                          borderRadius: '0.5rem',
-                          objectFit: 'cover' ,
-                           filter:
-                            'contrast(1.1) saturate(1.1) brightness(1.0) hue-rotate(0deg)'
-                        }}
-                      />
-                    </div>
-                   
+          {latest.map(item => {
+            // Ensure item.siteurl is defined
+            if (!item.siteurl) {
+              console.warn(`Missing siteurl for item with id ${item.id}`) // Debugging: log missing siteurl
+              return null // Skip rendering this item
+            }
+
+            return (
+              <div
+                key={item.id}
+                className='card bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 duration-300'
+              >
+                <Link href={item.siteurl} passHref>
+                  <div>
+                    <div className='relative'>
+                      <div className='absolute top-2 left-2 z-10 badge bg-gradient-to-r from-pink-500 to-amber-500 text-white py-2 px-4 rounded-lg text-center font-bold'>
+                        {item.badge}
+                      </div>
+                      <div className='aspect-w-16 aspect-h-9 w-full'>
+                        <Image
+                          src={item.image}
+                          alt={item.title}
+                          width={1280}
+                          height={720}
+                          className='w-full h-full rounded-t-lg'
+                          quality={90}
+                          loading='lazy'
+                          style={{
+                            borderRadius: '0.5rem',
+                            objectFit: 'cover',
+                            filter:
+                              'contrast(1.1) saturate(1.1) brightness(1.0) hue-rotate(0deg)'
+                          }}
+                        />
+                      </div>
+
                       <div className='p-4 '>
-                      <h2 className='font-bold text-xl text-blue-500 flex flex-col items-center justify-center'>
-                        {item.title}
-                       </h2>
-                      <h3 className='text-gray-700 mb-2'>{item.news1}</h3>
-                      <p className='font-bold text-black mb-2 flex flex-col items-center justify-center'> Genre: </p>
-                      <p className="font-bold text-black mb-2 flex flex-col items-center justify-center">
-                      {item.genre}
-                      </p>
+                        <h2 className='font-bold text-xl text-blue-500 flex flex-col items-center justify-center'>
+                          {item.title}
+                        </h2>
+                        <h3 className='text-gray-700 mb-2'>{item.news1}</h3>
+                        <p className='font-bold text-black mb-2 flex flex-col items-center justify-center'>
+                          {' '}
+                          Genre:{' '}
+                        </p>
+                        <p className='font-bold text-black mb-2 flex flex-col items-center justify-center'>
+                          {item.genre}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Link>
-            </div>
-          ))}
+                </Link>
+              </div>
+            )
+          })}
         </div>
       </div>
+      <style jsx>{`
+        .telegram-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+          background: linear-gradient(to right, #ff7e5f, #feb47b);
+          background-clip: text;
+          color: transparent;
+          margin-top: 25px;
+        }
+
+        .telegram-icon {
+          color: #0088cc;
+          margin-left: 10px;
+          font-size: 2rem;
+          animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        @media (min-width: 768px) {
+          .title {
+            font-size: 2rem;
+          }
+
+          .highlight {
+            font-size: 2rem;
+          }
+
+          .telegram-link {
+            font-size: 2rem;
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .title {
+            font-size: 2.5rem;
+          }
+
+          .highlight {
+            font-size: 2.5rem;
+          }
+
+          .telegram-link {
+            font-size: 2.5rem;
+          }
+        }
+      `}</style>
     </div>
   )
 }
@@ -385,14 +371,14 @@ export async function getStaticProps () {
 
     return {
       props: {
-        items: data
+        items: data || [] // Ensure data is an array
       }
     }
   } catch (error) {
     console.error('Error fetching data:', error)
     return {
       props: {
-        items: []
+        items: [] // Return an empty array to avoid issues
       }
     }
   }

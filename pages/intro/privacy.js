@@ -203,11 +203,11 @@ const Privacy = () => {
           />
          <meta
           name='keywords'
-          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,gomovies,putlocker,putlockers,soap2day'
+          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123 movies,gomovies,putlocker,putlockers,soap2day'
         />
           <meta
           property='description'
-          content='Movieswood™ - Stream HD movies and TV series for free on Movieswood Online. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+          content='Movieswood™ - Stream HD movies and TV series for free on 123Movies Online. Explore, stream, and download full-length movies and shows in HD quality without registration.'
         />
 
           <link rel='canonical' href='https://movieswood.vercel.app/intro/privacy' />
@@ -219,7 +219,7 @@ const Privacy = () => {
           />
           <meta
             property='og:description'
-            content='Movieswood™ - Stream HD movies and TV series for free on Movieswood Online. Explore, stream, and download full-length movies and shows in HD quality without registration.'
+            content='Movieswood™ - Stream HD movies and TV series for free on 123Movies Online. Explore, stream, and download full-length movies and shows in HD quality without registration.'
           />
           <meta property='og:url' content='https://movieswood.vercel.app/intro/privacy/' />
           <meta

@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Link from 'next/link';
+import Head from 'next/head'
+import Link from 'next/link'
+import { useEffect } from 'react'
 
-export default function HomePage() {
-
+export default function HomePage () {
   const uwatchfreeSchema = JSON.stringify([
     {
       '@context': 'https://schema.org',
@@ -206,7 +206,7 @@ export default function HomePage() {
   })
   return (
     <>
-        <Head>
+      <Head>
         <title>Movieswood™ - Explore. Stream. Online.</title>
 
         <link
@@ -242,9 +242,9 @@ export default function HomePage() {
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
         />
-         <meta
+       <meta
           name='keywords'
-          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,gomovies,putlocker,putlockers,soap2day'
+          content='movieswood,hollywood,bollywood,free movies,movies online,watch movies online,watch movies free,download movies,123 movies,gomovies,putlocker,putlockers,soap2day'
         />
         <meta
           name='description'
@@ -328,18 +328,34 @@ export default function HomePage() {
 
       <div className='container'>
         <div className='content'>
-          <h1 className='title'>Welcome to Movieswood™</h1>
+          <h1 className='title'>Movieswood™ - Explore. Stream. Online.</h1>
           <h2 className='highlight'>
             Discover the Best Movies and TV Shows to Stream on Movieswood™
           </h2>
           <p className='description'>
-            Welcome to <strong>Movieswood™</strong>, your premier destination for streaming the latest and most popular movies and TV shows. Our platform offers an extensive collection of entertainment options, allowing you to explore a wide variety of genres and discover new favorites. Whether you're looking for action-packed thrillers, heartwarming dramas, or laugh-out-loud comedies, <strong>Movieswood™</strong> has something for everyone.
+            Welcome to <strong>Movieswood™</strong>, your premier destination for
+            streaming the latest and most popular movies and TV shows. Our
+            platform offers an extensive collection of entertainment options,
+            allowing you to explore a wide variety of genres and discover new
+            favorites. Whether you're looking for action-packed thrillers,
+            heartwarming dramas, or laugh-out-loud comedies,{' '}
+            <strong>Movieswood™</strong> has something for everyone.
           </p>
           <p className='description'>
-            With a user-friendly interface and high-quality streaming, <strong>Movieswood™</strong> makes it easy to find and enjoy your favorite content. Our library is regularly updated with the latest releases, ensuring that you have access to the newest movies and TV shows as soon as they are available. Stream online seamlessly and enjoy an immersive viewing experience from the comfort of your home.
+            With a user-friendly interface and high-quality streaming,{' '}
+            <strong>Movieswood™</strong> makes it easy to find and enjoy your
+            favorite content. Our library is regularly updated with the latest
+            releases, ensuring that you have access to the newest movies and TV
+            shows as soon as they are available. Stream online seamlessly and
+            enjoy an immersive viewing experience from the comfort of your home.
           </p>
           <p className='description'>
-            At <strong>Movieswood™</strong>, we are committed to providing a top-notch streaming service that meets all your entertainment needs. Join us today and explore the vast world of movies and TV shows available at your fingertips. Whether you're a casual viewer or a dedicated binge-watcher, <strong>Movieswood™</strong> is the perfect place to stream online and stay entertained.
+            At <strong>Movieswood™</strong>, we are committed to providing a
+            top-notch streaming service that meets all your entertainment needs.
+            Join us today and explore the vast world of movies and TV shows
+            available at your fingertips. Whether you're a casual viewer or a
+            dedicated binge-watcher, <strong>Movieswood™</strong> is the perfect
+            place to stream online and stay entertained.
           </p>
 
           <a
@@ -347,17 +363,27 @@ export default function HomePage() {
             target='_blank'
             rel='noopener noreferrer'
             className='telegram-link'
+            style={{
+              display: 'block',
+              textAlign: 'center',
+              margin: '0 auto',
+              marginTop: '20px'
+            }}
           >
-            <h3>
-              For Request or Demand Movies & TV Series Join Telegram
-              <i className='fab fa-telegram telegram-icon'></i>
-            </h3>
+            <p style={{ display: 'inline-block' }}>
+              For Request or Demand <br />
+              Movies & TV Series Join Telegram
+              <i
+                className='fab fa-telegram telegram-icon'
+                style={{ marginLeft: '8px' }}
+              ></i>
+            </p>
           </a>
 
           <p className='subtitle'>
             The premier platform for the latest releases and secure downloads.
           </p>
-          <Link href='/home'>
+          <Link href='/home/page1'>
             <div className='cta-button'>Enter Movieswood™</div>
           </Link>
         </div>
@@ -504,5 +530,5 @@ export default function HomePage() {
         }
       `}</style>
     </>
-  );
+  )
 }
